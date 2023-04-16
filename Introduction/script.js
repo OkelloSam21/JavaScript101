@@ -40,6 +40,23 @@ console.log(age)
  console.log( 'a <= b : ' + (a <= b ))
  console.log( 'a != b : ' + (a >= b ))
 
- // Other operators OR || AND && NOT
- 
+ //Other operators OR (||) AND (&&) NOT (!)
+ let num01 = 5, num02 = 10;
 
+let result1 = (num01 != num02) && (num01 < num02); // returns true
+
+let result2 = (num01 > num02) || (num01 == num02); // returns false
+
+let result3 = (num01 < num02) || (a == b); // returns true
+
+let result4 = !(num01 < num02); // returns false
+
+let result5 = !(num01 > num02); // returns true
+
+// store results in an array
+let results = [  (num01 != num02) && (num01 < num02),  (num01 > num02) || (num01 == num02),  (num01 < num02) || (a == b),  !(num01 < num02),  !(num01 > num02)];
+console.log(`Results for logical operators`)
+//use for loop to print results
+for (let i = 0; i < results.length; i++) {
+  console.log(`result${i+1}: ${results[i]}`);
+}

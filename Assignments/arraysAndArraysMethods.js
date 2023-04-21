@@ -7,37 +7,37 @@ const array  = ["Javascript", "Html", "Css", "Java"]
 
 // Splice 
 
-// let slice = array.slice(1)
-// console.log(slice)  // [ 'Html', 'Css', 'Java' ]
+let slice = array.slice(1)
+console.log(slice)  // [ 'Html', 'Css', 'Java' ]
 
-// // indexOf - returns the first index of occurance of an array element or -1
-//     const num = new Array(1,2,4,5,1,4)
-//     let index = num.indexOf(2)
-//     console.log(index) // 0
+// indexOf - returns the first index of occurance of an array element or -1
+    const num = new Array(1,2,4,5,1,4)
+    let index = num.indexOf(2)
+    console.log(index) // 0
 
-// // forEach
-// function printArrayElements (element, index) {
-//     console.log("Array element " + index + " : "+element )
-// }
+// forEach
+function printArrayElements (element, index) {
+    console.log("Array element " + index + " : "+element )
+}
 
-// array.forEach(printArrayElements)
+array.forEach(printArrayElements)
 
-// // Map
-//     function sqr(num) {
-//         return num * num 
-//     }
+// Map
+    function sqr(num) {
+        return num * num 
+    }
 
-//     let result = num.map(sqr)
-//     console.log(result)
+    let result = num.map(sqr)
+    console.log(result)
 
-// // Join
-//     let greetings = ["Hello", "How","are","you ?"]
-//     let joinedGreetings = greetings.join(" ")
-//     console.log(joinedGreetings)
+// Join
+    let greetings = ["Hello", "How","are","you ?"]
+    let joinedGreetings = greetings.join(" ")
+    console.log(joinedGreetings)
 
-// // Sort
-//     let sortednum = num.sort()
-//     console.log(sortednum)
+// Sort
+    let sortednum = num.sort()
+    console.log(sortednum)
 
 //Shift
     let first = array.shift()
